@@ -1,76 +1,56 @@
 <?php
-require_once "Electronica.php";
+
+require_once "Productos.php";
 require_once "Alimentacion.php";
-
-/*$alimentos = array(
-    new Alimentacion(1, 50, "Caquis", 3, 2020),
-    new Alimentacion(2, 25, "Platanos", 2, 2020)
-);
-$electronica = array(
-    new Electronica(3, 100, "OnePlus8", 2),
-    new Electronica(4, 200, "iPhone", 2)
-);*/
-$cesta = array(
-    new Alimentacion(1, 50, "Caquis", 3, 2020),
-    new Alimentacion(2, 25, "Platanos", 2, 2020),
-    new Electronica(3, 100, "OnePlus8", 2),
-    new Electronica(4, 200, "iPhone", 2)
+require_once "Electronica.php";
+$carrito = array(
+    new Alimentacion("1109", 19, "Jack Daniel`s", 01, 22),
+    new Alimentacion("54dfsd", 7.55, "Quarter Horse", 07, 25),
+    new Alimentacion("1as1as", 14.95, "Four Roses", 12, 50),
+    new Alimentacion("1as1as", 14.95, "Four Roses", 12, 50),
+    new Electronica("01sas0", 80, "nfortec vega", "2 años"),
+    new Electronica("asd11", 30, "mi band 5", "2 años"),
+    new Electronica("egfsd45sd", 350, "zotac rtx 2060", "2 años"),
 );
 
 
-$precio = importeTotal_Imprimir($cesta);
-echo "<hr>TOTAL: $precio<br>";
+function getProductos($carrito)
+{
+    echo "CEESTA DE LA COMPRA: <br><br>";
+    foreach ($carrito as $productos) {
+        echo $productos;
+    }
 
-
-
-usort($cesta, "ordenarPrecios");
-echo "Producto mas caro: " . $cesta[0]->getNombre() . "<br>";
-$totalAlimentos = importeAlimentacion($cesta);
-$totalElectronica = importeElectronica($cesta);
-if ($totalAlimentos > $totalElectronica) {
-    echo "Se ha gastado mas en Alimentos: $totalAlimentos";
-} else if ($totalAlimentos < $totalElectronica) {
-    echo "Se ha gastado mas en Electronica: $totalElectronica";
-} else {
-    echo "Se ha gastado lo mismo en los dos tipos: $totalElectronica";
 }
 
-// FUNCIONES
-function importeElectronica(array $cesta)
+function getGasto($carrito)
 {
-    $precio = 0;
-    foreach ($cesta as $item) {
-        if ($item instanceof Electronica) {
-            $precio += $item->getPrecio();
+    $total = 0;
+    foreach ($carrito as $producto) {
+        $total += $producto->getPrecio();
+    }
+    echo "<br>El gasto total ha sido: " . $total . "€";
+}
+
+function mayorGasto($carrito)
+{
+    $totalAlimentacion = 0;
+    $totalElectronica = 0;
+    foreach ($carrito as $producto) {
+        if ($producto instanceof Alimentacion) {
+            $totalAlimentacion += $producto->getPrecio();
+        } else {
+            $totalElectronica += $producto->getPrecio();
         }
     }
-    return $precio;
-}
-
-function importeAlimentacion(array $cesta)
-{
-    $precio = 0;
-    foreach ($cesta as $item) {
-        if ($item instanceof Alimentacion) {
-            $precio += $item->getPrecio();
-        }
+    if ($totalElectronica > $totalAlimentacion) {
+        echo "<br>Se ha gastado más en electrónica, concretamente " . $totalElectronica . "€";
+    } else {
+        echo "<br>Se ha gastado mas en alimentación, concretamente " . $totalAlimentacion . "€";
     }
-    return $precio;
 }
 
-;
-function importeTotal_Imprimir(array $cesta)
-{
-    $precio = 0;
-    foreach ($cesta as $item) {
-        if ($item instanceof Producto) {
-            echo $item;
-            $precio += $item->getPrecio();
-        }
-    }
-    return $precio;
-}
+getProductos($carrito);
+getGasto($carrito);
+mayorGasto($carrito);
 
-function ordenarPrecios($a, $b) {
-    return $b->getPrecio() - $a->getPrecio();
-}

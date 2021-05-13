@@ -1,14 +1,14 @@
 <?php
-require_once "Producto.php";
 
-class Electronica extends Producto
+
+class Electronica extends Productos
 {
-    private $plazoGarantia;
+    private $plazo_garantia;
 
-    public function __construct($codigo, $precio, $nombre, $plazoGarantia)
+    public function __construct($codigo, $precio, $nombre, $plazo_garantia)
     {
         parent::__construct($codigo, $precio, $nombre);
-        $this->plazoGarantia = $plazoGarantia;
+        $this->plazo_garantia = $plazo_garantia;
     }
 
     /**
@@ -16,19 +16,19 @@ class Electronica extends Producto
      */
     public function getPlazoGarantia()
     {
-        return $this->plazoGarantia;
+        return $this->plazo_garantia;
     }
 
     /**
-     * @param mixed $plazoGarantia
+     * @param mixed $plazo_garantia
      */
-    public function setPlazoGarantia($plazoGarantia): void
+    public function setPlazoGarantia($plazo_garantia)
     {
-        $this->plazoGarantia = $plazoGarantia;
+        $this->plazo_garantia = $plazo_garantia;
     }
 
     public function __toString()
     {
-        return parent::__toString() . " Plazo de garantia: $this->plazoGarantia<br>";
+        return parent::__toString() ." tiene ". $this->plazo_garantia . " de garantía <br>";
     }
 }

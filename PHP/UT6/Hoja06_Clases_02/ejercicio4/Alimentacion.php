@@ -1,54 +1,104 @@
 <?php
-require_once "Producto.php";
 
-class Alimentacion extends Producto
+class Alimentacion extends Productos
 {
-    private $month;
-    private $year;
+    private $mes_caducidad, $año_caducidad;
 
-    public function __construct($codigo, $precio, $nombre, $month, $year)
+    /**
+     * Alimentacion constructor.
+     * @param $mes_caducidad
+     * @param $año_caducidad
+     */
+    public function __construct($codigo, $precio, $nombre, $mes_caducidad, $año_caducidad)
     {
         parent::__construct($codigo, $precio, $nombre);
-        $this->month = $month;
-        $this->year = $year;
+        $this->mes_caducidad = $mes_caducidad;
+        $this->año_caducidad = $año_caducidad;
     }
 
     /**
      * @return mixed
      */
-    public function getMonth()
+    public function getMesCaducidad()
     {
-        return $this->month;
+        return $this->mes_caducidad;
     }
 
     /**
-     * @param mixed $month
+     * @param mixed $mes_caducidad
      */
-    public function setMonth($month): void
+    public function setMesCaducidad($mes_caducidad)
     {
-        $this->month = $month;
+        $this->mes_caducidad = $mes_caducidad;
     }
 
     /**
      * @return mixed
      */
-    public function getYear()
+    public function getAñoCaducidad()
     {
-        return $this->year;
+        return $this->año_caducidad;
     }
 
     /**
-     * @param mixed $year
+     * @param mixed $año_caducidad
      */
-    public function setYear($year): void
+    public function setAñoCaducidad($año_caducidad)
     {
-        $this->year = $year;
+        $this->año_caducidad = $año_caducidad;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCodigo()
+    {
+        return $this->codigo;
+    }
+
+    /**
+     * @param mixed $codigo
+     */
+    public function setCodigo($codigo)
+    {
+        $this->codigo = $codigo;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getPrecio()
+    {
+        return $this->precio;
+    }
+
+    /**
+     * @param mixed $precio
+     */
+    public function setPrecio($precio)
+    {
+        $this->precio = $precio;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getNombre()
+    {
+        return $this->nombre;
+    }
+
+    /**
+     * @param mixed $nombre
+     */
+    public function setNombre($nombre)
+    {
+        $this->nombre = $nombre;
     }
 
     public function __toString()
     {
-        return parent::__toString() . " Fecha: $this->month/$this->year<br>";
+        return parent::__toString() ." caduca el mes: " . $this->mes_caducidad . " del: ". $this->año_caducidad ."<br>";
     }
-
 
 }

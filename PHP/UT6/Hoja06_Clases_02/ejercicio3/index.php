@@ -2,9 +2,9 @@
 require_once "Familia.php";
 require_once "Urgencia.php";
 
-$fam1 = new Familia("Daniel", 35, "mañana", 5);
+$fam1 = new Familia("Pepe", 65, "tarde", 5);
 $fam2 = new Familia("Joseba", 70, "tarde", 8);
-$fam3 = new Familia("Karla", 20, "mañana", 15);
+$fam3 = new Familia("Oiko", 21, "mañana", 15);
 
 $urg1 = new Urgencia("Alvaro", 33, "tarde", "CI");
 $urg2 = new Urgencia("Marcos", 63, "tarde", "CI");
@@ -12,7 +12,6 @@ $urg3 = new Urgencia("Ivan", 44, "tarde", "CI");
 
 $medicos = array($fam1, $fam2, $fam3, $urg1, $urg2, $urg3);
 
-mostrarMedicosSenior($medicos);
 
 /**
  * @param array $medicos
@@ -24,7 +23,7 @@ function mostrarMedicosSenior(array $medicos): void
 
         $n += $medico->mostrarSeniorTarde();
     }
-    echo "Medicos de mas de 60 y de tarde: " . $n;
+    echo "Médicos de más de 60 años y turno de tarde: " . $n;
 }
 
 ?>
@@ -41,24 +40,31 @@ function mostrarMedicosSenior(array $medicos): void
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-<div class="container">
-    <form action="" method="post">
-        <div class="form-group">
-            <label for="pacientes">Numero Pacientes</label>
-            <input type="number" class="form-control" name="pacientes" id="pacientes"
-                   placeholder="Introducir numero de pacientes">
-        </div>
-        <button type="submit" name="mostrar" class="btn btn-primary">Mostrar</button>
-    </form>
-    <?php
-    if (isset($_POST["mostrar"])) {
-        foreach ($medicos as $medico) {
-            if ($medico instanceof Familia && $medico->getNumPacientes() >= $_POST["pacientes"]) {
-                $medico->mostrarDatos();
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-6">
+            <form action="" method="post">
+                <legend class="text-center text-primary"><?= mostrarMedicosSenior($medicos); ?></legend>
+                <div class="form-group">
+                    <label for="pacientes">Número Pacientes</label>
+                    <input type="number" class="form-control" name="pacientes" id="pacientes"
+                           placeholder="Introducir numero de pacientes">
+                </div>
+                <button type="submit" name="mostrar" class="btn btn-primary">Mostrar</button>
+            </form>
+            <?php
+            if (isset($_POST["mostrar"])) {
+                foreach ($medicos as $medico) {
+                    if ($medico instanceof Familia && $medico->getNumPacientes() >= $_POST["pacientes"]) {
+
+                           $medico->mostrarDatos();
+                    }
+                }
             }
-        }
-    }
-    ?>
+            ?>
+        </div>
+    </div>
+
 </div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

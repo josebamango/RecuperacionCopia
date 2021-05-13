@@ -1,14 +1,12 @@
 <?php
 
 
-abstract class Producto
+class Productos
 {
-    protected $codigo;
-    protected $precio;
-    protected $nombre;
+protected $codigo, $precio, $nombre;
 
     /**
-     * Producto constructor.
+     * Productos constructor.
      * @param $codigo
      * @param $precio
      * @param $nombre
@@ -31,7 +29,7 @@ abstract class Producto
     /**
      * @param mixed $codigo
      */
-    public function setCodigo($codigo): void
+    public function setCodigo($codigo)
     {
         $this->codigo = $codigo;
     }
@@ -47,7 +45,7 @@ abstract class Producto
     /**
      * @param mixed $precio
      */
-    public function setPrecio($precio): void
+    public function setPrecio($precio)
     {
         $this->precio = $precio;
     }
@@ -63,14 +61,13 @@ abstract class Producto
     /**
      * @param mixed $nombre
      */
-    public function setNombre($nombre): void
+    public function setNombre($nombre)
     {
         $this->nombre = $nombre;
     }
 
     public function __toString()
     {
-        return "Codigo: $this->codigo, Precio: $this->precio, Nombre: $this->nombre";
+        return "<strong>El producto con código: " . $this->codigo . " es " . $this->nombre . " y cuesta-> " . $this->precio . "€</strong>";
     }
-
 }
