@@ -17,7 +17,7 @@ $productos = Database::getInstance()->getProductos();
 <body>
 <table>
     <tr>
-        <th>Codigo</th>
+        <th>Código</th>
 
     </tr>
     <?php foreach ($productos as $producto) : ?>
