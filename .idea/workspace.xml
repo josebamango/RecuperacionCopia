@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d0f6dbb-ca63-4c85-b196-c1df87e6b959" name="Default Changelist" comment="" />
+    <list default="true" id="9d0f6dbb-ca63-4c85-b196-c1df87e6b959" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JS/repaso/claseAnimal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/repaso/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/repaso/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/repaso2/claseCliente.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/repaso2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/repaso2/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +24,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1sUHyXUyZn4RYKLGBrEuDH2KRE1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -53,8 +63,16 @@
       <workItem from="1620921773610" duration="19000" />
       <workItem from="1620921819278" duration="496000" />
       <workItem from="1620922370595" duration="1016000" />
-      <workItem from="1621258637551" duration="684000" />
+      <workItem from="1621258637551" duration="12440000" />
     </task>
+    <task id="LOCAL-00001" summary="na">
+      <created>1621262287510</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621262287510</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,5 +94,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/EjerciciosPrimeraEvaluacion/TareasPrimeraEvaluacionJoseba" />
     </ignored-roots>
+    <MESSAGE value="na" />
+    <option name="LAST_COMMIT_MESSAGE" value="na" />
   </component>
 </project>
