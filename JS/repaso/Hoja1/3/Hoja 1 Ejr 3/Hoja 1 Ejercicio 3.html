@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hoja 1 - Ejercicio 3 - Juan Carlos Ríos</title>
+	<script type="text/javascript" src="hoja1Ejercicio3.js"></script>
+	<meta charset="utf-8">
+	<style type="text/css">
+		input{
+			margin: 5px;
+		}
+		form, div{
+			width: 60%;
+			margin: auto;
+		}
+		legend{
+			text-align: center;
+		}
+		textarea{
+			width: 100%;
+		}
+		td{
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>TEST DE CAPACITACION</legend>
+			<label>Nombre del candidato: </label><input type="text" id="nomCandidato" autofocus>
+			<br/>
+			<label>Preguntas realizadas: </label><input id="realizadas">
+			<br/>
+			<label>Preguntas correctas: </label><input id="correctas">
+			<br/>
+			<input type="button" id="informe" value="Informe">
+			<input type="button" id="verTodos" value="Ver todos">
+			<br/>
+			<textarea id="resInforme" readonly></textarea>
+		</fieldset>
+	</form>
+	<div id="todos">
+		
+	</div>
+</body>
+</html>

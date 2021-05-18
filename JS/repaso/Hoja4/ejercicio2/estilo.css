@@ -1,0 +1,76 @@
+img{
+    width: 50px;
+    height: 50px;
+    
+}
+
+
+input[type=button]{
+    float: left;
+    
+    margin-bottom: 10px;
+}
+
+
+#fotoPaciente{
+    width: 60px;
+    height: 60px;
+    margin: auto auto auto auto;
+    
+    clear: both;
+}
+
+#alertas{
+    width: 780px;
+    height: 80px;
+    text-align: center;
+    margin: 10px auto 0 auto;
+    background-color: aquamarine;
+    border-radius: 30px;
+    padding-top: 15px;
+}
+body{
+    width: 780px;
+    margin: 10px auto 0 auto;
+    text-align: center;
+}
+
+#alta,#tratamiento,#ver_tratamientos{
+    width: calc(760px / 3);
+    float: left;
+    padding: 16px;
+    border: 0;
+    background-color: aquamarine;
+    color: black;
+    margin: 3px;
+    font-size: 19px;
+}
+
+#escondido {
+    text-align: center;
+    width: 780px;
+    float: left;
+    clear: left;
+}
+#confirmar, #elegir_paciente, #add_tratamiento, #confirmarAlta{
+    width: 100%;
+    text-align: center;
+    border: 0;
+    margin: 10px auto auto 10px;
+    background-color: aquamarine;
+    color: black;
+    font-size: 30px;
+    padding: 15px;
+}
+select#codigoPaciente, select#tratamiento_elegido {
+    width: 200px;
+    font-size: 20px;
+}
+
+#informacion{
+    border: 1px solid aquamarine;
+    padding: 10px;
+    margin: 5px;
+}
+
+

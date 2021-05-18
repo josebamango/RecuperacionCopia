@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ejercicio 1</title>
+        <meta charset="UTF-8">
+        <script src="ejercicio1.js"></script>
+        <script src="clientebanco.js"></script>
+        <link rel="stylesheet" type="text/css" href="ejercicio1.css" title="style" />
+        
+    </head>
+    <body>
+        <h1>Bienvenido a su Banco</h1>
+        <h3>Darse de Alta</h3>
+        <form id="alta">
+            <p>Introduzca su nombre</p>
+            <input type="text" id="nombre">
+            <p>Introduzca su saldo</p>
+            <input type="number" min="0.01" id="saldo">
+            <p><input type="button" id="enviar" value="Darse de Alta"></p>
+
+        </form>
+        <div id="container1">
+            <h3>Realizar trámites</h3>
+            <form id="tramites2">
+                <input type="button" id="tramites" value="Iniciar Trámite">
+                
+                <div id="contenedor"></div>
+            </form>
+
+            <h3>Visualizar Clientes</h3>
+            <div id="ver_clientes">
+                <input type="button" id="ver" value="Visualizar">
+                <div id="ricos"></div>
+                <div id="pobres"></div>
+                <div id="neutros"></div>    
+            </div>
+        </div>
+        <div id="container2">
+            <div id="ver_acreedores">
+            <h3>Visualizar Saldo Acreedores</h3>
+            <input type="button" id="saldo_ricos" value="Saldo Acreedores">
+            <div id="mostrar_saldo_ricos"></div>
+            <div id="mostrar_saldo_ricos2"></div>
+        </div>
+        <div id="ver_deudores">
+            <h3>Visualizar Saldo Deudores</h3>
+            <input type="button" id="saldo_pobres" value="Saldo Deudores">
+            <div id="mostrar_saldo_pobres"></div>
+        </div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="Objeto.auto.js"></script>
+	<script type="text/javascript" src="eje8.js"></script>
+	<style>
+	div{
+	border: groove;
+	display: inline-block;
+	margin: 10px;
+	padding-left:5px;
+	padding-right:5px;
+	width:100px;
+	height:100px;
+}
+img{
+	
+	width:100px;
+	height:100px;
+}
+#botAcel{
+	width:100px;
+	height:100px;
+	background-color:red;
+}
+	</style>
+</head>
+<body>
+	<h3>ejercicio 8</h3>
+	<fieldset>
+	<legend>insertar auto</legend>
+	Seleccione modelo de auto:
+	<select id="seleAuto">
+		<option value="0">carreras</option>
+		<option value="1">descapotable</option>
+		<option value="2">turismo</option>
+		<option value="3">camioneta</option>
+	</select><br><br>
+	Introdusca color del auto: <input type="text" id="color" value=""><br><br>
+	Introdusca velocidad maxima del auto: <input type="number" id="velMax" value=""><br><br>
+	<input type="button" id="enviar" value="introducir coche"></input><br><br>
+	
+	<label id="respuesta"></label>
+	</fieldset>
+	<fieldset>
+	<legend>grafico de los autos, haga clic sobre el coche quiera seleccionar</legend>
+	<label id="graf"></label>
+		<fieldset>
+			<legend>controles del coche</legend>
+			<label id="respuesta2"></label><br><br>
+			<label id="velocidadAc"></label><br>
+			velocidad: <input type="number" id="velocidad" value=""><br><br>
+			<input type="button" id="aumenta" value="aumenta">
+			<input type="button" id="disminuye" value="disminuye"><br><br>
+			<input type="button" id="botAcel" value=""><br><br>
+		</fieldset>
+	</fieldset>
+	
+</body>
+</html>

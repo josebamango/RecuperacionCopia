@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="imágenes/hospital.svg" type="image/x-icon">
+    <script type="text/javascript" src="habitacion.js"></script>
+    <script type="text/javascript" src="hospital.js"></script>
+		<title>Hospital</title>
+		<meta name="description" content="hospital, habitación">
+  	<meta name="keywords" content="HTML, JS, CSS">
+  	<meta name="author" content="DAW216 Juan Carlos González Fernández">
+    <style>
+
+      body
+       {
+          background-color: rgb(245, 203, 156);
+       }
+      
+      section
+       {
+          display: inline-block;
+       }
+
+      table, th, td
+       {
+          border: 1px solid black;
+          border-collapse: collapse;
+          padding: 10px;
+          text-align: center;
+       }
+
+      th
+       {
+          background-color: rgb(134, 134, 134);
+       }
+      
+      td
+       {
+          background-color: rgba(136, 136, 136, 0.712);
+       }
+
+      legend
+       {
+          
+          background-color: rgb(134, 134, 134);
+          padding: 10px;
+          margin-bottom: 10px;
+          border-radius: 20px;
+       }
+
+      table
+       {
+          margin-bottom: 15px;
+       }
+
+      fieldset
+       {
+          display: inline-block;
+          margin-right: 20px;
+          background-color: rgba(136, 136, 136, 0.712);
+       } 
+
+    </style>
+	</head>
+	<body>
+
+    <section style="display: flex; align-items: center;"> <!-- Section Gestion-->
+
+      <section>
+
+          <fieldset style="display: inline-block;">
+            <legend>Información de Habitaciones:</legend>
+
+              <label name="plantaP" id="plantaP"><b>Planta: </b></label> <br><br>
+              <label name="habitacionP" id="habitacionP"><b>Habitación: </b></label> <br><br>
+              <label>Fotografía: </label> <br><br>
+              <img name="imgP" id="imgP" witdh="60" height="60" src=""> <br> <br>
+              <label name="codP" id="codP">Código Paciente: </label> <br><br>
+              <label name="tratP" id="tratP"><b>Tratamientos: </b></label>
+
+          </fieldset>
+
+      </section>
+
+      <section>  <!-- Section Tablas-->
+
+        <table>
+          <tr>
+            <th>Habitación</th>
+            <td>Número 1</td>
+            <td>Número 2</td>
+            <td>Número 3</td>
+            <td>Número 4</td>
+            <td>Número 5</td>
+            <td>Número 6</td>
+          </tr>
+          <tr>
+            <th>Planta 1</th>
+            <td><img name="imgE" id="11" witdh="80" height="80" src="imágenes/cama_libre.jpg"></td>
+            <td><img name="imgE" id="12" witdh="80" height="80" src="imágenes/cama_libre.jpg"></td>
+            <td><img name="imgE" id="13" witdh="80" height="80" src="imágenes/cama_libre.jpg"></td>
+            <td><img name="imgE" id="14" witdh="80" height="80" src="imágenes/cama_libre.jpg"></td>
+            <td><img name="imgE" id="15" witdh="80" height="80" src="imágenes/cama_libre.jpg"></td>
+            <td><img name="imgE" id="16" witdh="80" height="80" src="imágenes/cama_libre.jpg"></td>
+          </tr>       
+        </table>
+
+        <table>
+          <tr>
+            <th>Habitación</th>
+            <td>Número 1</td>
+            <td>Número 2</td>
+            <td>Número 3</td>
+            <td>Número 4</td>
+            <td>Número 5</td>
+            <td>Número 6</td>
+          </tr>
+          <tr>
+            <th>Planta 2</th>
+            <td><img name="imgE" id="21" witdh="80" height="80" src="imágenes/cama_libre.jpg"></td>
+            <td><img name="imgE" id="22" witdh="80" height="80" src="imágenes/cama_libre.jpg"></td>
+            <td><img name="imgE" id="23" witdh="80" height="80" src="imágenes/cama_libre.jpg"></td>
+            <td><img name="imgE" id="24" witdh="80" height="80" src="imágenes/cama_libre.jpg"></td>
+            <td><img name="imgE" id="25" witdh="80" height="80" src="imágenes/cama_libre.jpg"></td>
+            <td><img name="imgE" id="26" witdh="80" height="80" src="imágenes/cama_libre.jpg"></td>
+          </tr>       
+        </table>
+
+        <table>
+          <tr>
+            <th>Habitación</th>
+            <td>Número 1</td>
+            <td>Número 2</td>
+            <td>Número 3</td>
+            <td>Número 4</td>
+            <td>Número 5</td>
+            <td>Número 6</td>
+          </tr>
+          <tr>
+            <th>Planta 3</th>
+            <td><img name="imgE" id="31" witdh="80" height="80" src="imágenes/cama_libre.jpg"></td>
+            <td><img name="imgE" id="32" witdh="80" height="80" src="imágenes/cama_libre.jpg"></td>
+            <td><img name="imgE" id="33" witdh="80" height="80" src="imágenes/cama_libre.jpg"></td>
+            <td><img name="imgE" id="34" witdh="80" height="80" src="imágenes/cama_libre.jpg"></td>
+            <td><img name="imgE" id="35" witdh="80" height="80" src="imágenes/cama_libre.jpg"></td>
+            <td><img name="imgE" id="36" witdh="80" height="80" src="imágenes/cama_libre.jpg"></td>
+          </tr>       
+        </table>
+
+
+      
+      </section>
+      
+    </section>
+
+    <fieldset style="margin-left: 20px;">
+      <legend>Gestión de Habitaciones:</legend>
+
+        <label for="sPacienteF">Seleccionar codigo paciente:</label>
+        <select name="sPacienteF" id="sPacienteF">
+          <option value="...">...</option>
+        </select>
+        <br><br>
+
+        <label for="fotoP">Fotografía paciente:</label>
+        <br><br>
+        <input type="file" id="fotoP" name="fotoP" accept=".png, .jpeg, .jpg">
+        <hr>
+
+        <br>
+        <input type="button" id="bAsignarF" name="bAsignarF" value="Asignar foto">
+        <input type="button" id="bAltaP" name="bAltaP" value="Dar el alta">
+    </fieldset>
+
+    <fieldset>
+      <legend>Gestión de Tratamientos:</legend>
+
+        <label for="sTratamientoP">Seleccionar codigo paciente:</label>
+        <select name="sTratamientoP" id="sTratamientoP">
+          <option value="...">...</option>
+        </select>
+        <br><br>
+
+        <label for="tratamientosP">Tratamientos:</label>
+        <br>
+
+        <label><input type="checkbox" name="tratamientosP" id="tratamientosP" value="Oftalmología">Oftalmología</label><br>
+        <label><input type="checkbox" name="tratamientosP" id="tratamientosP" value="Fisioterapia">Fisioterapia</label><br>
+        <label><input type="checkbox" name="tratamientosP" id="tratamientosP" value="Reumatología">Reumatología</label><br>
+        <label><input type="checkbox" name="tratamientosP" id="tratamientosP" value="Traumatologia">Traumatologia</label><br>
+        <label><input type="checkbox" name="tratamientosP" id="tratamientosP" value="Cardiología">Cardiología</label><br>
+        <label><input type="checkbox" name="tratamientosP" id="tratamientosP" value="Psicología">Psicología</label><br>
+        <label><input type="checkbox" name="tratamientosP" id="tratamientosP" value="Alergología">Alergología</label><br>
+        <label><input type="checkbox" name="tratamientosP" id="tratamientosP" value="Audiología">Audiología</label><br>
+        <label><input type="checkbox" name="tratamientosP" id="tratamientosP" value="Otorrinolaringología">Otorrinolaringología</label>
+
+        <hr>
+        <input type="button" id="bAplicarT" name="bAplicarT" value="Aplicar tratamiento">
+
+    </fieldset>
+
+	</body>
+</html>

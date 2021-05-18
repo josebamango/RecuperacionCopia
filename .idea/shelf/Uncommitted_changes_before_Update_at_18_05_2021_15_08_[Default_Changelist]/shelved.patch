@@ -1,0 +1,54 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"9d0f6dbb-ca63-4c85-b196-c1df87e6b959\" name=\"Default Changelist\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/PHP/UT6/Hoja06_Clases_02/ejercicio3/index.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/PHP/UT6/Hoja06_Clases_02/ejercicio3/index.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/PHP/UT6/Hoja06_Clases_02/ejercicio4/Alimentacion.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/PHP/UT6/Hoja06_Clases_02/ejercicio4/Alimentacion.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/PHP/UT6/Hoja06_Clases_02/ejercicio4/Electronica.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/PHP/UT6/Hoja06_Clases_02/ejercicio4/Electronica.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/PHP/UT6/Hoja06_Clases_02/ejercicio4/Producto.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/PHP/UT6/Hoja06_Clases_02/ejercicio4/Productos.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/PHP/UT6/Hoja06_Clases_02/ejercicio4/index.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/PHP/UT6/Hoja06_Clases_02/ejercicio4/index.php\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ComposerSettings\" doNotAsk=\"true\" synchronizationState=\"SYNCHRONIZE\">\r\n    <pharConfigPath>$PROJECT_DIR$/bootstrap-4.0.0/composer.json</pharConfigPath>\r\n    <execution />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"PhpWorkspaceProjectConfiguration\" interpreter_name=\"PHP\" />\r\n  <component name=\"ProjectId\" id=\"1sUHyXUyZn4RYKLGBrEuDH2KRE1\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"project.propVCSSupport.Mappings\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"9d0f6dbb-ca63-4c85-b196-c1df87e6b959\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1620920503093</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1620920503093</updated>\r\n      <workItem from=\"1620920504330\" duration=\"250000\" />\r\n      <workItem from=\"1620920877417\" duration=\"130000\" />\r\n      <workItem from=\"1620921033090\" duration=\"40000\" />\r\n      <workItem from=\"1620921074596\" duration=\"17000\" />\r\n      <workItem from=\"1620921123213\" duration=\"197000\" />\r\n      <workItem from=\"1620921431162\" duration=\"260000\" />\r\n      <workItem from=\"1620921773610\" duration=\"19000\" />\r\n      <workItem from=\"1620921819278\" duration=\"496000\" />\r\n      <workItem from=\"1620922370595\" duration=\"1016000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <ignored-roots>\r\n      <path value=\"$PROJECT_DIR$/EjerciciosPrimeraEvaluacion/TareasPrimeraEvaluacionJoseba\" />\r\n    </ignored-roots>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision eadc6a95229b36bf94c015e9a2036aee202f8377)
++++ b/.idea/workspace.xml	(date 1620923535330)
+@@ -1,15 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="9d0f6dbb-ca63-4c85-b196-c1df87e6b959" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/PHP/UT6/Hoja06_Clases_02/ejercicio3/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/UT6/Hoja06_Clases_02/ejercicio3/index.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/PHP/UT6/Hoja06_Clases_02/ejercicio4/Alimentacion.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/UT6/Hoja06_Clases_02/ejercicio4/Alimentacion.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/PHP/UT6/Hoja06_Clases_02/ejercicio4/Electronica.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/UT6/Hoja06_Clases_02/ejercicio4/Electronica.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/PHP/UT6/Hoja06_Clases_02/ejercicio4/Producto.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/UT6/Hoja06_Clases_02/ejercicio4/Productos.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/PHP/UT6/Hoja06_Clases_02/ejercicio4/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/UT6/Hoja06_Clases_02/ejercicio4/index.php" afterDir="false" />
+-    </list>
++    <list default="true" id="9d0f6dbb-ca63-4c85-b196-c1df87e6b959" name="Default Changelist" comment="" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -57,8 +49,16 @@
+       <workItem from="1620921431162" duration="260000" />
+       <workItem from="1620921773610" duration="19000" />
+       <workItem from="1620921819278" duration="496000" />
+-      <workItem from="1620922370595" duration="1016000" />
++      <workItem from="1620922370595" duration="1149000" />
+     </task>
++    <task id="LOCAL-00001" summary="mejor que ayer">
++      <created>1620923510213</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1620923510213</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -80,5 +80,7 @@
+     <ignored-roots>
+       <path value="$PROJECT_DIR$/EjerciciosPrimeraEvaluacion/TareasPrimeraEvaluacionJoseba" />
+     </ignored-roots>
++    <MESSAGE value="mejor que ayer" />
++    <option name="LAST_COMMIT_MESSAGE" value="mejor que ayer" />
+   </component>
+ </project>
+\ No newline at end of file

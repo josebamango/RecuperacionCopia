@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hospital</title>
+        <meta charset="UTF-8">
+        <script src="ejercicio2.js"></script>
+        <script src="modelo_habitahos.js"></script>
+        <link rel="stylesheet" type="text/css" href="estilo.css" title="style" />
+        
+    </head>
+    <body>
+        <h1>Bienvenidos al hospital</h1>
+        <form>
+            <div id="alertas"></div>
+            <p>Elige una habitación</p>
+            
+            <div id="container1">
+
+                <p>Planta 1</p>
+                
+                    <img src="casilla.png" id="1-1">
+                    <img src="casilla.png" id="1-2">                
+                    <img src="casilla.png" id="1-3">                
+                    <img src="casilla.png" id="1-4">                
+                    <img src="casilla.png" id="1-5">                
+                    <img src="casilla.png" id="1-6">
+                
+            </div>
+            <div id="container2">
+                <p>Planta 2</p>
+                
+                    <img src="casilla.png" id="2-1">                
+                    <img src="casilla.png" id="2-2">                
+                    <img src="casilla.png" id="2-3">               
+                    <img src="casilla.png" id="2-4">                
+                    <img src="casilla.png" id="2-5">                
+                    <img src="casilla.png" id="2-6">
+                
+            </div>
+            <div id="container3">
+                <p>Planta 3</p>
+                
+                    <img src="casilla.png" id="3-1">                
+                    <img src="casilla.png" id="3-2">               
+                    <img src="casilla.png" id="3-3">               
+                    <img src="casilla.png" id="3-4">             
+                    <img src="casilla.png" id="3-5">                
+                    <img src="casilla.png" id="3-6">
+               
+            </div>
+        
+            <div id="informacion"></div>
+       <input type="button" id="alta" value="Dar el Alta">
+       <input type="button" id="tratamiento" value="Elegir Tratamiento">
+       <input type="button" id="ver_tratamientos" value="Ver todos los tratamientos">
+        <div id="alta_escondido">
+            <p>Elige el codigo de Paciente</p>
+            <div id="pintar_select"></div>
+            <input type="button" id="confirmarAlta" value="Confirmar Alta">
+        </div>
+        <div id="escondido">
+            <p>Introduce una foto</p>
+            <input type="file" id="foto">
+            <p><input type="button" id="confirmar" value="Confirmar Ingreso"></p>
+        </div>
+        </form>
+        
+        <div id="infoTratamiento">
+            <div id="fotoPaciente"></div>
+            <input type="button" id="elegir_paciente" value="Elegir Paciente">
+            <input type="button" id="add_tratamiento" value="Seleccionar Tratamiento">
+        </div>
+        <div id="verTratamientos"></div>
+    </body>
+</html>

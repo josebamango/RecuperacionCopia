@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+
+}
+
+#alta{
+    background-color: rgba(11, 170, 11, 0.568);
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 22px;
+}
+input{
+    width: 90%;
+    border: 0px;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+#enviar{
+    width: 90%;
+    font-size: 25px;
+    background-color: white;
+}
+h3{
+    text-align: center;
+}
+#container1{
+    width: 50%;
+    float: left;
+}
+#container2{
+    width: 50%;
+    float: right;
+}
+
+#saldo_pobres,#saldo_ricos,#tramites,#ver,#ingresar,#retirar{
+    background-color: rgba(11, 170, 11, 0.568);
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+}
+input#cantidad {
+    
+    border: 1px green solid;
+    width: 85%;
+}
+select#num_cuenta {
+    width: 60%;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px green solid;
+}

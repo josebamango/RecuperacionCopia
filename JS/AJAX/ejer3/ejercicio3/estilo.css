@@ -1,0 +1,18 @@
+img{
+    width: 200px;
+    height: 300px;
+    float: left;
+    margin: 10px;
+}
+.contenedor_img{
+    width: 1000px;
+    margin: auto auto auto auto;
+}
+#pintar{
+    width: 300px;
+    background-color: rgb(240 70 70);
+    color: white;
+    font-size: 19px;
+}
+
+
