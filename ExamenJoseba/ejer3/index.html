@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Ejer4</title>
+    <title>Ejer3</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,21 +10,34 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="script.js"></script>
-    <script src=""></script>
 </head>
 <body>
 <div class="container-fluid">
     <div class="row justify-content-center">
         <div class="col-6 mt-5">
             <form action="" method="post">
-                <label for="dni">DNI</label>
-                <input type="text" class="form-control" id="dni">
-                <label for="entrada">Fecha de entrada</label>
-                <input type="date" class="form-control" id="entrada">
-                <label for="salida">Fecha de salida</label>
-                <input type="date" class="form-control" id="salida">
-                <input type="button" id="boton" class="btn btn-primary" value="Enviar">
-                <textarea id="resultado" class="form-control bg-info text-center" cols="30" rows="10"></textarea>
+                Elige una opción: <br>
+                <input type="radio" id="l1" name="nameradio" value="lista1" class="form-check d-inline">Lista1
+                <input type="radio" id="l2" name="nameradio" value="lista2" class="form-check d-inline">Llista2
+                <input type="radio" id="s1" name="nameradio" value="select1" class="form-check d-inline">Select1
+                <input type="radio" id="s2" name="nameradio" value="select2" class="form-check d-inline">Select2 <br>
+                Select1
+                <select name="" id="select1" class="form-control"><br>
+
+                </select>
+                Select2
+                <select name="" id="select2" class="form-control">
+
+                </select><br>
+                Lista1
+                <ul class="list-group" id="lista1">
+
+                </ul>
+                Lista2
+                <ul class="list-group" id="lista2">
+
+                </ul>
+                <input type="button" id="boton" class="btn btn-primary" value="Generar">
             </form>
         </div>
     </div>

@@ -2,203 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d0f6dbb-ca63-4c85-b196-c1df87e6b959" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_05_2021_15_08_[Default_Changelist]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_05_2021_15_08__Default_Changelist_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer2/2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer2/Ej2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer2/Ej2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/abril.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/agosto.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/diciembre.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/ej.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/ejercicio3/ejercicio3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/ejercicio3/ejercicio3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/ejercicio3/estilo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/ejercicio3/imagenes/abril.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/ejercicio3/imagenes/agosto.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/ejercicio3/imagenes/diciembre.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/ejercicio3/imagenes/enero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/ejercicio3/imagenes/febrero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/ejercicio3/imagenes/julio.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/ejercicio3/imagenes/junio.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/ejercicio3/imagenes/marzo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/ejercicio3/imagenes/mayo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/ejercicio3/imagenes/noviembre.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/ejercicio3/imagenes/octubre.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/ejercicio3/imagenes/septiembre.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/enero.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/febero.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/julio.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/junio.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/marzo.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/mayo.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/meses.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/noviembre.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/octubre.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/septiembre.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer4/ejercicio 4 Ajax/eje4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer4/ejercicio 4 Ajax/eje4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer5/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/AJAX/ejer5/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/SHORTCUTS/cobaya.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/SHORTCUTS/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/SHORTCUTS/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Ajax/1/ejer1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Ajax/1/ejer1/php1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Ajax/2/2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Ajax/2/Ej2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Ajax/2/Ej2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Ajax/3/abril.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Ajax/3/agosto.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Ajax/3/diciembre.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Ajax/3/ej.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Ajax/3/enero.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Ajax/3/febero.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Ajax/3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Ajax/3/julio.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Ajax/3/junio.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Ajax/3/marzo.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Ajax/3/mayo.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Ajax/3/meses.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Ajax/3/noviembre.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Ajax/3/octubre.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Ajax/3/septiembre.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Ajax/4/ejercicio 4 Ajax/4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Ajax/4/ejercicio 4 Ajax/eje4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Ajax/4/ejercicio 4 Ajax/eje4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Destructuring.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja1/1/Hoja11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja1/1/Hoja11.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja1/10/Ej10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja1/10/Ej10.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja1/2/ejercicio2a.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja1/2/ejercicio2a.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja1/3/Hoja 1 Ejr 3/Hoja 1 Ejercicio 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja1/3/Hoja 1 Ejr 3/hoja1Ejercicio3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja1/4/ej4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja1/4/ej4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja1/5/Hoja15.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja1/5/Hoja15.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja1/6/ej6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja1/6/ej6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja1/6/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja1/6/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja1/7/7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja1/7/7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja1/8/Hoja18.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja1/8/Hoja18.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja1/8/input/ejercicio8B.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja1/8/input/ejercicio8B.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja1/8/input/ejercicio8B.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja1/9/ejercicio9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja1/9/ejercicio9.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja1/Ejercicio 6.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja2/1/hoja21.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja2/1/plantilla.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja2/2/Hoja22.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja2/2/hoja22.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja3/1/Ej1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja3/1/Ej1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja3/2/Hoja32.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja3/2/Hoja32.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja3/3/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja3/4/ej4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja3/4/ej4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja3/5/ejercicio5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja3/5/ejercicio5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja3/6/Hoja36.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja3/6/Hoja36.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja3/6/ej.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja3/6/ej.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja3/7/cadenita.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja3/8/Fechita.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja3/8/Hoja38.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja3/8/Hoja38.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja3/9/9 ejemplo/Objeto.auto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja3/9/9 ejemplo/eje8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja3/9/9 ejemplo/eje8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja3/9/9 ejemplo/fotos/camioneta.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja3/9/9 ejemplo/fotos/carreras.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja3/9/9 ejemplo/fotos/descapotable.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja3/9/9 ejemplo/fotos/turismo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio 2 - Hospital Juan Carlos/habitacion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio 2 - Hospital Juan Carlos/hospital.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio 2 - Hospital Juan Carlos/hospital.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio 2 - Hospital Juan Carlos/imágenes/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio 2 - Hospital Juan Carlos/imágenes/cama_libre.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio 2 - Hospital Juan Carlos/imágenes/cama_ocupada.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio 2 - Hospital Juan Carlos/imágenes/hospital.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio 2 - Hospital Juan Carlos/imágenes/images.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio 2 - Hospital Juan Carlos/imágenes/perfíl/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio 2 - Hospital Juan Carlos/imágenes/perfíl/usuario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio 2 - Hospital Juan Carlos/imágenes/perfíl/usuario_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio 2 - Hospital Juan Carlos/imágenes/perfíl/usuario_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio 2 - Hospital Juan Carlos/imágenes/perfíl/usuario_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio 2 - Hospital Juan Carlos/imágenes/perfíl/usuario_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio 2 - Hospital Juan Carlos/imágenes/perfíl/usuario_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio 2 - Hospital Juan Carlos/imágenes/perfíl/usuario_07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio 2 - Hospital Juan Carlos/imágenes/perfíl/usuario_08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio 2 - Hospital Juan Carlos/imágenes/perfíl/usuario_09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio 2 - Hospital Juan Carlos/imágenes/perfíl/usuario_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio1/clientebanco.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio1/ejercicio1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio1/ejercicio1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio1/ejercicio1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio2/casilla.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio2/ejercicio2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio2/ejercicio2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio2/estilo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio2/modelo_habitahos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio2/x.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/ejercicio2/x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/fotografias/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/fotografias/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/fotografias/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/fotografias/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/fotografias/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/fotografias/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/fotografias/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/fotografias/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/fotografias/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/fotografias/progresssbar/EjMeter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/fotografias/progresssbar/EjMeter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/Hoja4/fotografias/progresssbar/foto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/enuncidados/HOJA 1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/enuncidados/HOJA 2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/enuncidados/HOJA 3.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/enuncidados/HOJA 4.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/enuncidados/HOJA 5.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/enuncidados/Meter y barra de progreso.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/enuncidados/PRACTICAS AJAX.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/enuncidados/mascotas.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/mascotas/Mascota.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/mascotas/Refuerzo Victor.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/mascotas/Refuerzo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/mascotas/Refuerzo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/mascotas/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/mascotas/abeja.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/mascotas/cobaya.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/mascotas/cohin.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/mascotas/gato.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/mascotas/gato2.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/mascotas/leon.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/mascotas/perro.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/mascotas/pollitos.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/mascotas/rana.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/repaso/mascotas/tortuga.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamenJoseba/ejer1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamenJoseba/ejer1/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamenJoseba/ejer2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamenJoseba/ejer2/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamenJoseba/ejer3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamenJoseba/ejer3/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamenJoseba/ejer4/claseHabitacion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamenJoseba/ejer4/diferenciaDias.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamenJoseba/ejer4/diferenciaDias.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamenJoseba/ejer5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamenJoseba/ejer5/libre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamenJoseba/ejer5/ocupado.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamenJoseba/ejer5/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/AJAX/2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/AJAX/4.php" beforeDir="false" afterPath="$PROJECT_DIR$/JS/AJAX/ejer4/ejercicio 4 Ajax/4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/AJAX/desayunos.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/AJAX/ejer2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/repaso/Hoja3/3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/AJAX/ejer2/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/repaso/Ajax/1/ejer1/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/AJAX/meses.php" beforeDir="false" afterPath="$PROJECT_DIR$/JS/AJAX/ejer3/ejercicio3/meses.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/AJAX/paises y ciudades.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/AJAX/php paises.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/repaso2/claseCliente.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/clasesNa/claseCliente.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/repaso2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/clasesNa/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/repaso2/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/clasesNa/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/SHORTCUTS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/SHORTCUTS/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/PHP/zoologico" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ExamenJoseba/ejer5" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -236,6 +54,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\clonacion\RecuperacionCopia\ExamenJoseba\ejer5" />
+      <recent name="C:\xampp\htdocs\clonacion\RecuperacionCopia\ExamenJoseba\ejer4" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -255,7 +79,17 @@
       <workItem from="1620921819278" duration="496000" />
       <workItem from="1620922370595" duration="1016000" />
       <workItem from="1621352205943" duration="100000" />
+      <workItem from="1621353034815" duration="207000" />
+      <workItem from="1621429518726" duration="9728000" />
     </task>
+    <task id="LOCAL-00001" summary="Iniciamos laravel y shotcuts de js">
+      <created>1621353138850</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621353138850</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,5 +111,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/EjerciciosPrimeraEvaluacion/TareasPrimeraEvaluacionJoseba" />
     </ignored-roots>
+    <MESSAGE value="Iniciamos laravel y shotcuts de js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iniciamos laravel y shotcuts de js" />
   </component>
 </project>
