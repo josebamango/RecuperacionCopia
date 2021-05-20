@@ -2,21 +2,85 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d0f6dbb-ca63-4c85-b196-c1df87e6b959" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ExamenJoseba/ejer1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamenJoseba/ejer1/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamenJoseba/ejer2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamenJoseba/ejer2/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamenJoseba/ejer3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamenJoseba/ejer3/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamenJoseba/ejer4/claseHabitacion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamenJoseba/ejer4/diferenciaDias.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamenJoseba/ejer4/diferenciaDias.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamenJoseba/ejer5/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamenJoseba/ejer5/libre.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamenJoseba/ejer5/ocupado.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamenJoseba/ejer5/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/app/Models/Animal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/app/Models/Cuidador.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/app/Models/Revision.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/database/migrations/2014_10_12_200000_add_two_factor_columns_to_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/database/migrations/2021_01_19_191500_create_animales_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/database/migrations/2021_01_26_190534_create_sessions_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/database/migrations/2021_01_28_184014_create_revisiones_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/database/migrations/2021_02_02_172208_create_cuidadores_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/database/migrations/2021_02_02_172816_create_animal_cuidador_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/database/seeders/AnimalSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/database/seeders/RevisionSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/database/seeders/UserSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/css/estilo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/imagenes/bisonte.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/imagenes/elefante.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/imagenes/jaguar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/imagenes/jirafa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/imagenes/leon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/imagenes/mono.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/public/assets/imagenes/tigre.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/resources/views/animales/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/resources/views/animales/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/resources/views/animales/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/resources/views/animales/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/resources/views/layouts/guest.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/resources/views/layouts/master.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segundoZoo/resources/views/layouts/partials/navbar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zoologico-master/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/SHORTCUTS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/SHORTCUTS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/segundoZoo/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/segundoZoo/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/segundoZoo/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/segundoZoo/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/segundoZoo/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/segundoZoo/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/segundoZoo/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/segundoZoo/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +108,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ExamenJoseba/ejer5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/segundoZoo/database/seeders" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -57,8 +121,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\clonacion\RecuperacionCopia\ExamenJoseba\ejer5" />
-      <recent name="C:\xampp\htdocs\clonacion\RecuperacionCopia\ExamenJoseba\ejer4" />
+      <recent name="C:\xampp\htdocs\clonacion\RecuperacionCopia\segundoZoo\database\seeders" />
+      <recent name="C:\xampp\htdocs\clonacion\RecuperacionCopia\segundoZoo\app\Models" />
+      <recent name="C:\xampp\htdocs\clonacion\RecuperacionCopia\segundoZoo\database\migrations" />
+      <recent name="C:\xampp\htdocs\clonacion\RecuperacionCopia\segundoZoo\resources\views" />
+      <recent name="C:\xampp\htdocs\clonacion\RecuperacionCopia\segundoZoo\public" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -81,6 +148,7 @@
       <workItem from="1621352205943" duration="100000" />
       <workItem from="1621353034815" duration="207000" />
       <workItem from="1621429518726" duration="9728000" />
+      <workItem from="1621522984150" duration="4639000" />
     </task>
     <task id="LOCAL-00001" summary="Iniciamos laravel y shotcuts de js">
       <created>1621353138850</created>
@@ -89,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621353138850</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="examenJS">
+      <created>1621523232771</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621523232771</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +187,7 @@
       <path value="$PROJECT_DIR$/EjerciciosPrimeraEvaluacion/TareasPrimeraEvaluacionJoseba" />
     </ignored-roots>
     <MESSAGE value="Iniciamos laravel y shotcuts de js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Iniciamos laravel y shotcuts de js" />
+    <MESSAGE value="examenJS" />
+    <option name="LAST_COMMIT_MESSAGE" value="examenJS" />
   </component>
 </project>
