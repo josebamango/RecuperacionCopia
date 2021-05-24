@@ -45,7 +45,7 @@ function crearSelectPaises(paises, arrayCiudades) {
     document.body.appendChild(selectPais);
 }
 
-/*function crearSelectCiudades(arrayCiudades, selectCiudad) {
+function crearSelectCiudades(arrayCiudades, selectCiudad) {
     for (let i = 0; i < arrayCiudades.length; i++) {
         let option = document.createElement("option");
         option.value = arrayCiudades[i];
@@ -57,4 +57,4 @@ function crearSelectPaises(paises, arrayCiudades) {
         ventanaNormal.moveTo(500, 200);
         ventanaNormal.document.write(`<img src="imagenes/${(this.value).toLowerCase()}.jpg">`);
     })
-}*/
+}

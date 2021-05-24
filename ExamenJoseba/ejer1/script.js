@@ -3,8 +3,6 @@ addEventListener("load", inicio, false);
 function inicio() {
     var mensaje = prompt("Introduce una cadena");
 
-
-
     function agregarIndice(palabraDeletreo) {
         var i = 0;
         while (i < palabraDeletreo.length) {
