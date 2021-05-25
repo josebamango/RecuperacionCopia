@@ -1,7 +1,6 @@
 addEventListener("load", inicio, false);
 
 
-
 function inicio() {
     let xhr = new XMLHttpRequest();
     xhr.open("GET", "desayunos.xml", true);
@@ -9,26 +8,9 @@ function inicio() {
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4) {
             if (xhr.status === 200) {
-                let ticket = document.getElementById("ticket");
                 let desayunoCollection = xhr.responseXML.querySelectorAll("food");
-                let pedido = Array();
                 let arrayDesayunos = crearObjetos(desayunoCollection);
-                crearBotones(arrayDesayunos, pedido);
-                ticket.addEventListener("click", function () {
-                    let texto = "--- PEDIDO ---\n";
-                    for (const desayuno in pedido) {
-                        texto += desayuno + " -> " + pedido[desayuno] + " unidades\n";
-                    }
-                    /*let total = 0;
-                    for (let i = 0; i < pedido.length; i++) {
-                        for (const desayunoNombre in pedido) {
-                            if (arrayDesayunos[i].nombre == desayunoNombre) {
-                                total += arrayDesayunos[i].precio;
-                            }
-                        }
-                    }*/
-                    alert(texto)
-                })
+                crearBotones(arrayDesayunos);
             }
         }
     }
@@ -47,40 +29,30 @@ function crearObjetos(collection) {
     return arrayDesayunos;
 }
 
-function crearBotones(arrayObjetos, pedido) {
+function crearBotones(arrayObjetos) {
     let div = document.createElement("div");
+    let table = document.createElement("table");
     for (let i = 0; i < arrayObjetos.length; i++) {
-        let button = document.createElement("button");
-        button.setAttribute("id", arrayObjetos[i].nombre);
-        button.innerHTML = `Desayuno tipo ${i+1}`;
-        button.addEventListener("mouseenter", function () {
+        let th = document.createElement('th');
+        th.style.border="thick solid #0000FF";
+        table.appendChild(th);
+        th.setAttribute("id", arrayObjetos[i].nombre);
+        th.innerHTML = `Desayuno tipo ${i + 1}`;
+        th.addEventListener("mouseenter", function () {
             this.className = "botonResaltado";
             let divInfo = document.createElement("div");
             divInfo.className = "infoDiv";
             divInfo.innerHTML = arrayObjetos[i].visualizar();
             document.body.appendChild(divInfo);
         })
-        button.addEventListener("mouseleave", function () {
+        th.addEventListener("mouseleave", function () {
             this.className = "";
             try {
                 document.body.removeChild(document.querySelector(".infoDiv"));
-            }catch (e) {
+            } catch (e) {
             }
         })
-        button.addEventListener("click", function () {
-            let cantidad;
-            let aux = true;
-            do {
-                cantidad = prompt("¿Cuantos desayunos quieres?");
-                if (!isNaN(cantidad)) {
-                    aux = false;
-                }
-            } while (aux)
-            if (cantidad != null) {
-                pedido[arrayObjetos[i].nombre] = cantidad;
-            }
-        })
-        div.appendChild(button);
+        div.appendChild(table);
     }
     document.body.appendChild(div);
 }

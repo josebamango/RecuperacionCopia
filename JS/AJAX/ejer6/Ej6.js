@@ -15,7 +15,7 @@ function inicio() {
             xhr.onreadystatechange = function () {
                 let ciudades = xhr.responseText.split(",")
                 let indice = ciudades[0].substr(-1, 1);
-                ciudades.shift();
+                //ciudades.shift();
                 try {
                     document.body.removeChild(document.querySelector("div"))
                 } catch (e) {

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejer1</title>
+    <script src="Ej1.js"></script>
+    <script src="ClaseContacto.js"></script>
+</head>
+<body>
+<label for="nombre">Nombre: </label><input type="text" name="nombre" id="nombre"><br>
+<label for="telefono">Teléfono: </label><input type="tel" name="telefono" id="telefono"><br>
+<label for="cp">Código Postal: </label><input type="number" minlength="5" maxlength="5" name="cp" id="cp"><br>
+<label for="email">Email: </label><input type="email" name="email" id="email"><br>
+
+<fieldset>
+    <legend>Local Storage</legend>
+    <input type="button" id="guardarLocal" value="Guardar">
+    <input type="button" id="obtenerLocal" value="Mostrar contactos">
+    <input type="button" id="eliminarLocal" value="Eliminar contactos">
+</fieldset>
+<fieldset>
+    <legend>Buscador</legend>
+    <input type="text" id="nombreBuscar" >
+    <input type="button" id="buscar" value="Buscar">
+</fieldset>
+<section id="seccion">
+
+</section>
+</body>
+</html>
