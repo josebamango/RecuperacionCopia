@@ -2,23 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b833cacd-6a19-4d80-ac51-eb5378845e7e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/Laravel_25_5_21_17_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/segundoZoo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/AnimalFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/CuidadorFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/css/estilo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/imagenes/bisonte.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/imagenes/elefante.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/imagenes/jaguar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/imagenes/jirafa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/imagenes/leon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/imagenes/mono.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/public/assets/imagenes/tigre.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/resources/views/animales/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/resources/views/animales/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/resources/views/animales/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/resources/views/animales/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/shelf/Uncommitted_changes_before_Update_at_18_05_2021_15_08__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AnimalController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AnimalController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/AnimalSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/AnimalSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/animales/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/animales/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/animales/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/animales/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/animales/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/animales/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../zoologico-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zoologico-master/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +69,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -152,7 +195,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/database/migrations" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -176,6 +225,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621956628923</updated>
       <workItem from="1621956630592" duration="943000" />
+      <workItem from="1621958333814" duration="1971000" />
     </task>
     <servers />
   </component>
@@ -192,5 +242,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

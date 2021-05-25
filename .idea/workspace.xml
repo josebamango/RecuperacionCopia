@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d0f6dbb-ca63-4c85-b196-c1df87e6b959" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_05_2021_15_08__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/segundoZoo/app/Http/Controllers/AnimalController.php" beforeDir="false" afterPath="$PROJECT_DIR$/segundoZoo/app/Http/Controllers/AnimalController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/segundoZoo/database/seeders/AnimalSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/segundoZoo/database/seeders/AnimalSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/segundoZoo/resources/views/animales/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/segundoZoo/resources/views/animales/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/segundoZoo/resources/views/animales/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/segundoZoo/resources/views/animales/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/segundoZoo/resources/views/animales/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/segundoZoo/resources/views/animales/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/segundoZoo/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/segundoZoo/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zoologico-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zoologico-master/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/segundoZoo/database/factories" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ZooZero" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -80,6 +76,8 @@
       <workItem from="1621606786051" duration="148000" />
       <workItem from="1621861543421" duration="4329000" />
       <workItem from="1621948028225" duration="8049000" />
+      <workItem from="1621957762047" duration="92000" />
+      <workItem from="1621957908675" duration="320000" />
     </task>
     <task id="LOCAL-00001" summary="Iniciamos laravel y shotcuts de js">
       <created>1621353138850</created>
@@ -116,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621953593077</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="zoo">
+      <created>1621957819993</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1621957819993</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +148,7 @@
     <MESSAGE value="bastante zoo" />
     <MESSAGE value="basura de vida" />
     <MESSAGE value="AJAX, XML, JSON..." />
-    <option name="LAST_COMMIT_MESSAGE" value="AJAX, XML, JSON..." />
+    <MESSAGE value="zoo" />
+    <option name="LAST_COMMIT_MESSAGE" value="zoo" />
   </component>
 </project>

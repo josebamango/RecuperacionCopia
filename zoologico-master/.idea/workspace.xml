@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8cbaa086-e054-4892-b527-6d8d637e0114" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/.idea/commandlinetools/Laravel_25_5_21_17_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/.idea/segundoZoo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/database/factories/AnimalFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/database/factories/CuidadorFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/shelf/Uncommitted_changes_before_Update_at_18_05_2021_15_08__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../segundoZoo/app/Http/Controllers/AnimalController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../segundoZoo/app/Http/Controllers/AnimalController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../segundoZoo/database/seeders/AnimalSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../segundoZoo/database/seeders/AnimalSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../segundoZoo/resources/views/animales/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../segundoZoo/resources/views/animales/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../segundoZoo/resources/views/animales/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../segundoZoo/resources/views/animales/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../segundoZoo/resources/views/animales/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../segundoZoo/resources/views/animales/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../segundoZoo/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../segundoZoo/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -372,6 +356,7 @@
       <workItem from="1621526336975" duration="1833000" />
       <workItem from="1621956453221" duration="1123000" />
       <workItem from="1621957729866" duration="24000" />
+      <workItem from="1621957892595" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="Commit inicial">
       <created>1610652655901</created>
