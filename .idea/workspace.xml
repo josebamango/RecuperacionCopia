@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d0f6dbb-ca63-4c85-b196-c1df87e6b959" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JS/Almacenamiento/ejer1/ClaseContacto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/Almacenamiento/ejer1/Ej1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/Almacenamiento/ejer1/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/AJAX/ejer6/Ej6.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/AJAX/ejer6/Ej6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/AJAX/ejer7/Ej7.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/AJAX/ejer7/Ej7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/AJAX/ejer7/Ej7.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/AJAX/ejer7/Ej7.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/AJAX/ejer7/desayunos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JS/AJAX/ejer7/desayunos.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/segundoZoo/app/Http/Controllers/AnimalController.php" beforeDir="false" afterPath="$PROJECT_DIR$/segundoZoo/app/Http/Controllers/AnimalController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/segundoZoo/database/seeders/AnimalSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/segundoZoo/database/seeders/AnimalSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/segundoZoo/resources/views/animales/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/segundoZoo/resources/views/animales/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/segundoZoo/resources/views/animales/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/segundoZoo/resources/views/animales/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/segundoZoo/resources/views/animales/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/segundoZoo/resources/views/animales/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/segundoZoo/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/segundoZoo/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JS/AJAX/ejer6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/segundoZoo/database/factories" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,11 +49,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\clonacion\RecuperacionCopia\segundoZoo\database\factories" />
       <recent name="C:\xampp\htdocs\clonacion\RecuperacionCopia\JS\AJAX\ejer6" />
       <recent name="C:\xampp\htdocs\clonacion\RecuperacionCopia\JS\AJAX\ejer7" />
       <recent name="C:\xampp\htdocs\clonacion\RecuperacionCopia\segundoZoo\database\seeders" />
       <recent name="C:\xampp\htdocs\clonacion\RecuperacionCopia\segundoZoo\app\Models" />
-      <recent name="C:\xampp\htdocs\clonacion\RecuperacionCopia\segundoZoo\database\migrations" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -80,7 +79,7 @@
       <workItem from="1621522984150" duration="5577000" />
       <workItem from="1621606786051" duration="148000" />
       <workItem from="1621861543421" duration="4329000" />
-      <workItem from="1621948028225" duration="5358000" />
+      <workItem from="1621948028225" duration="8049000" />
     </task>
     <task id="LOCAL-00001" summary="Iniciamos laravel y shotcuts de js">
       <created>1621353138850</created>
@@ -110,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621866196449</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="AJAX, XML, JSON...">
+      <created>1621953593076</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1621953593077</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +142,7 @@
     <MESSAGE value="examenJS" />
     <MESSAGE value="bastante zoo" />
     <MESSAGE value="basura de vida" />
-    <option name="LAST_COMMIT_MESSAGE" value="basura de vida" />
+    <MESSAGE value="AJAX, XML, JSON..." />
+    <option name="LAST_COMMIT_MESSAGE" value="AJAX, XML, JSON..." />
   </component>
 </project>

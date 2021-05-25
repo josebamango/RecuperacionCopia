@@ -5,72 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8cbaa086-e054-4892-b527-6d8d637e0114" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/app/Models/Cuidador.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/app/Models/Revision.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/database/seeders/AnimalSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/database/seeders/UserSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/css/estilo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/imagenes/bisonte.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/imagenes/elefante.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/imagenes/jaguar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/imagenes/jirafa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/imagenes/leon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/imagenes/mono.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/public/assets/imagenes/tigre.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/resources/views/animales/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/resources/views/layouts/guest.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/resources/views/layouts/master.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../segundoZoo/resources/views/layouts/partials/navbar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../segundoZoo/.idea/commandlinetools/Laravel_25_5_21_17_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../segundoZoo/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../segundoZoo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../segundoZoo/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../segundoZoo/.idea/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../segundoZoo/.idea/segundoZoo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../segundoZoo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../segundoZoo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../segundoZoo/database/factories/AnimalFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../segundoZoo/database/factories/CuidadorFactory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../segundoZoo/app/Models/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../segundoZoo/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../segundoZoo/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../segundoZoo/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../segundoZoo/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundoZoo/app/Http/Controllers/AnimalController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../segundoZoo/app/Http/Controllers/AnimalController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundoZoo/database/seeders/AnimalSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../segundoZoo/database/seeders/AnimalSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundoZoo/resources/views/animales/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../segundoZoo/resources/views/animales/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundoZoo/resources/views/animales/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../segundoZoo/resources/views/animales/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundoZoo/resources/views/animales/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../segundoZoo/resources/views/animales/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../segundoZoo/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../segundoZoo/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -282,7 +234,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -418,6 +370,8 @@
       <workItem from="1614009549550" duration="3124000" />
       <workItem from="1614280206105" duration="3866000" />
       <workItem from="1621526336975" duration="1833000" />
+      <workItem from="1621956453221" duration="1123000" />
+      <workItem from="1621957729866" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="Commit inicial">
       <created>1610652655901</created>

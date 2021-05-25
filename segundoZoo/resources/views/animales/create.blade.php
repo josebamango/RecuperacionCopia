@@ -1,58 +1,61 @@
-@extends("layouts.master.master")
-
-@section("titulo")
-    Crear Animal
+@extends('layouts.master')
+@section('titulo')
+    Crear
 @endsection
 
 @section("contenido")
     <div class="row">
-        <div class="offset-md-3 col-md-6">
-            <div class="card">
-                <div class="card-header text-center">Añadir animal</div>
-                <div class="card-body"
-                     style="padding:30px">
-                    <form action="{{route("animales.store")}}" method="post" enctype="multipart/form-data">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <form class="formulario" action="{{route('animales.store')}}" method="post" role="form">
+                        <legend class="text-light bg-primary text-center h2">Introduce los datos del animal</legend>
                         @csrf
+                        <label for="especie">Especie:</label>
                         <div class="form-group">
-                            <label for="especie">Especie</label>
-                            <input type="text" name="especie" id="especie" class="form-control" required>
+                            <input class="form-control mb-3" type="text" name="especie" placeholder="Nombre de la especie">
                         </div>
+                        <label for="peso">Peso:</label>
                         <div class="form-group">
-                            <label for="peso">Peso: </label>
-                            <input type="number" step="any" class="form-control" name="peso" required>
+                            <input class="form-control mb-3" type="number" name="peso" placeholder="Peso en kg">
                         </div>
+                        <label for="altura">Altura:</label>
                         <div class="form-group">
-                            <label for="altura">Altura: </label>
-                            <input type="number" step="any" class="form-control" name="altura" required>
+                            <input class="form-control mb-3" type="number" name="altura" placeholder="Altura en cm">
                         </div>
+                        <label for="fecha">Fecha de nacimiento:</label>
                         <div class="form-group">
-                            <label for="fechaNacimiento">Fecha de nacimiento: </label>
-                            <input type="date" class="form-control" name="fechaNacimiento" required>
+                            <input class="form-control d-inline mb-3" type="date" name="fechaNacimiento">
                         </div>
-                        <div class="form-group">
-                            <label for="alimentacion">Tipo de alimentación: </label>
-                            <input type="text" class="form-control" name="alimentacion" required>
+                        <label for="alimentacion">Alimentación:</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="alimentacion"  value="carnivoro">
+                            <label class="form-check-label" for="carnivoro">Carnivoro</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="alimentacion" value="omnivoro">
+                            <label class="form-check-label" for="omnivoro">Omnivoro</label>
+                        </div>
+                        <div class="form-check disabled">
+                            <input class="form-check-input" type="radio" name="alimentacion"  value="herbivoro">
+                            <label class="form-check-label mb-3" for="herbivoro">Herbivoro</label>
                         </div>
                         <div class="form-group">
                             <label for="descripcion">Descripción:</label>
-                            <textarea name="descripcion"
-                                      id="descripcion"
-                                      class="form-control"
-                                      rows="3"></textarea>
+                            <textarea name="descripcion" class="form-control mb-3" cols="30" rows="10"></textarea>
                         </div>
                         <div class="form-group">
-                            <label for="imagen">Imagen:</label>
-                            <input type="file" class="form-control" name="imagen">
+                            <label for="imagen">Imagen</label>
+                            <input type="file" class="form-control-file mt-3" name="imagen">
                         </div>
-                        <div class="form-group text-center">
-                            <button type="submit" class="btn btn-success" style="padding:8px 100px;margin-top:25px;">
-                                Añadir
-                                animal
-                            </button>
-                        </div>
+                        <input type="submit" name="insertar" class="btn btn-primary mt-3" value="Insertar animal">
                     </form>
                 </div>
+
+
             </div>
         </div>
+
     </div>
 @endsection
+

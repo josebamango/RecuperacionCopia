@@ -1,26 +1,30 @@
-@extends("layouts.master.master")
+@extends("layouts.master")
 
 @section("titulo")
-    Listado animales
+    Inicio
 @endsection
 
 @section("contenido")
     <div class="row">
-        @foreach($animales as $clave => $animal)
-            <div class="card m-1 bg-light border-secondary" style="width: 18rem;">
-                <img class="card-img-top" src="{{asset("storage/img")}}/{{$animal->imagen}}" alt="Imagen de {{$animal->especie}}">
-                <div class="card-body">
-                    <h3 class="card-title">{{$animal->especie}}</h3>
-            {{--        <h5>Nº Revisiones: {{count($animal->revisiones)}}</h5>
-                    <h5>Cuidadores:</h5>
-                    <ul>
-                        @foreach($animal->cuidadores as $cuidador)
-                            <li>{{$cuidador->nombre}}</li>
-                        @endforeach
-                    </ul>--}}
-                    <a href="{{ route('animales.show' , $animal) }}" class="btn btn-primary">Más información</a>
+        @foreach( $animales as  $animal )
+            <div class="col-xs-12 col-sm-6 col-md-4 mb-4">
+                <div class="card text-white bg-info" style="width: auto;">
+                    <a href="{{ route('animales.show' , $animal->id) }}">
+                        <img class="card-img-top" src="/storage/images/{{$product->image}}"
+                             style="height:400px"/>
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title text-center">{{$animal->especie}}</h4>
+                    </div>
+                    <ul class="list-group list-group-flush text-dark">
+                        <li class="list-group-item">Alimentacion: {{$animal->alimentacion}}</li>
+                        <li class="list-group-item">Peso: {{$animal->peso}}kg</li>
+                        <li class="list-group-item">Altura: {{$animal->altura}}cm</li>
+                    </ul>
                 </div>
             </div>
         @endforeach
     </div>
 @endsection
+
+
