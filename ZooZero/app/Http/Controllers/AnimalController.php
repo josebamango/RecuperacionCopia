@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class AnimalController extends Controller
 {
-    private $arrayAnimales = array(
+    private $animales = array(
         array(
             'especie' => 'Bisonte',
             'peso' => 1000,
@@ -107,8 +107,9 @@ Son diurnos y viven preferentemente en el suelo. Forman grupos numerosos que se 
 
     public function index()
     {
-       /* $animales = Animal::all();*/
-        return ($this->arrayAnimales);
+        $animales = Animal::all();
+        return view("animales.index", compact("animales"));
+
 
     }
 
