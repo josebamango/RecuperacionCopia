@@ -68,7 +68,7 @@ class AnimalController extends Controller
             $animal = Animal::all()->last();
             return redirect()->action([AnimalController::class, "show"], ["id" => $animal])->with("mensaje", $mensaje);
         } catch (\Exception $e) {
-            $mensaje = "Error: ". $e->getMessage();
+            $mensaje = "Error: " . $e->getMessage();
             return redirect()->action([AnimalController::class, "index"])->with("mensaje", $mensaje);
         }
 
@@ -120,8 +120,9 @@ class AnimalController extends Controller
         return redirect()->action([AnimalController::class, "show"], compact("animal"));
     }
 
-    public function buscar(Request $request){
-        $texto = "%". $request->busqueda . "%";
+    public function buscar(Request $request)
+    {
+        $texto = "%" . $request->busqueda . "%";
         $animales = Animal::query()->where("especie", "like", $texto)->pluck("especie");
         return response()->json($animales);
     }

@@ -5,16 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24dcbb16-6eb1-46cc-885c-2390785b48b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/Laravel_27_5_21_17_03.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/72b8cc9c-3619-4433-a059-4fb9d1fc1a9a.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/72b8cc9c-3619-4433-a059-4fb9d1fc1a9a/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_05_27_152046_create_animales_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/AnimalSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/UserSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/partials/navbar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AnimalController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AnimalController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../segundoZoo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../segundoZoo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Animal.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Animal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/animales/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/animales/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/animales/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/animales/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/animales/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/animales/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zoologico-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zoologico-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zoologico-master/app/Http/Controllers/AnimalController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zoologico-master/app/Http/Controllers/AnimalController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -139,10 +159,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -154,6 +175,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\clonacion\RecuperacionCopia\ZooZero\resources\views" />
       <recent name="C:\xampp\htdocs\clonacion\RecuperacionCopia\ZooZero\public" />
     </key>
   </component>
@@ -171,7 +193,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621958259962</updated>
-      <workItem from="1621958261767" duration="2266000" />
+      <workItem from="1621958261767" duration="2322000" />
+      <workItem from="1622127812922" duration="5065000" />
     </task>
     <task id="LOCAL-00001" summary="ZooZero">
       <created>1621960494390</created>
@@ -180,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621960494390</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ZooZero .env">
+      <created>1621960583995</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621960583995</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,9 +226,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ZooZero" />
-    <option name="LAST_COMMIT_MESSAGE" value="ZooZero" />
+    <MESSAGE value="ZooZero .env" />
+    <option name="LAST_COMMIT_MESSAGE" value="ZooZero .env" />
   </component>
 </project>

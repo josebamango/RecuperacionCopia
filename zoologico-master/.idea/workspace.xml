@@ -5,8 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8cbaa086-e054-4892-b527-6d8d637e0114" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/shelf/Uncommitted_changes_before_Update_at_18_05_2021_15_08__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/.idea/commandlinetools/Laravel_27_5_21_17_03.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/.idea/dataSources/72b8cc9c-3619-4433-a059-4fb9d1fc1a9a.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/.idea/dataSources/72b8cc9c-3619-4433-a059-4fb9d1fc1a9a/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/database/migrations/2021_05_27_152046_create_animales_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/database/seeders/AnimalSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/database/seeders/UserSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/resources/views/layouts/guest.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/resources/views/layouts/master.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZooZero/resources/views/layouts/partials/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZooZero/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ZooZero/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZooZero/app/Http/Controllers/AnimalController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../ZooZero/app/Http/Controllers/AnimalController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZooZero/app/Models/Animal.php" beforeDir="false" afterPath="$PROJECT_DIR$/../ZooZero/app/Models/Animal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZooZero/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../ZooZero/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZooZero/resources/views/animales/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../ZooZero/resources/views/animales/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZooZero/resources/views/animales/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../ZooZero/resources/views/animales/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZooZero/resources/views/animales/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../ZooZero/resources/views/animales/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZooZero/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../ZooZero/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AnimalController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AnimalController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +239,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -357,6 +378,7 @@
       <workItem from="1621956453221" duration="1123000" />
       <workItem from="1621957729866" duration="24000" />
       <workItem from="1621957892595" duration="14000" />
+      <workItem from="1622131090731" duration="1927000" />
     </task>
     <task id="LOCAL-00001" summary="Commit inicial">
       <created>1610652655901</created>
