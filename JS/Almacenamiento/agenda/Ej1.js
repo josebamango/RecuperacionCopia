@@ -1,14 +1,17 @@
 addEventListener("load", inicio, false);
 
 function inicio() {
-    let nombre = document.getElementById("nombre");
-    let telefono = document.getElementById("telefono");
-    let cp = document.getElementById("cp");
-    let email = document.getElementById("email");
-    let guardarLocal = document.getElementById("guardarLocal");
-    let obtenerLocal = document.getElementById("obtenerLocal");
-    let eliminarLocal = document.getElementById("eliminarLocal");
+    var nombre = document.getElementById("nombre");
+    var telefono = document.getElementById("telefono");
+    var cp = document.getElementById("cp");
+    var email = document.getElementById("email");
+    var guardarLocal = document.getElementById("guardarLocal");
+    var obtenerLocal = document.getElementById("obtenerLocal");
+    var eliminarLocal = document.getElementById("eliminarLocal");
+    var nombreBuscar = document.getElementById('nombreBuscar');
+    var buscar = document.getElementById('buscar');
     var seccion = document.getElementById("seccion");
+    var resultado = document.getElementById("resultado");
     var arrayContactos = new Array();
 
     function startTime() {
@@ -47,8 +50,10 @@ function inicio() {
 
     guardarLocal.addEventListener("click", function () {
         try {
+            var arrayContactos = new Array();
             var c1 = new Cliente(nombre.value, telefono.value, cp.value, email.value);
-            localStorage.setItem("datos", JSON.stringify(c1));
+            arrayContactos.push(c1);
+            localStorage.setItem("datos", JSON.stringify(arrayContactos));
         } catch (e) {
             alert("Error al guardar sesion")
         }
@@ -57,10 +62,11 @@ function inicio() {
 
     obtenerLocal.addEventListener("click", function () {
         var guardado = localStorage.getItem('datos');
+        var machete = JSON.parse(guardado);
         console.log('objetoObtenido: ', JSON.parse(guardado));
-        seccion.innerHTML = Object.values(guardado);
-
-
+        for (let i = 0; i < machete.length; i++) {
+            seccion.innerHTML += `Nombre: ${machete[i].nombre} <br> Teléfono: ${machete[i].telefono} <br> CP:  ${machete[i].cp} <br> Email:  ${machete[i].email} <hr>`;
+        }
     }, false);
 
     eliminarLocal.addEventListener("click", function () {
@@ -73,22 +79,21 @@ function inicio() {
     });
 
 
+    buscar.addEventListener('click', function () {
+        alert(machete[0].nombre)
+        for (let i = 0; i < machete.length; i++) {
+            if (nombreBuscar.value.toLowerCase() == machete[i].nombre.toLowerCase()) {
+                resultado.innerHTML = `Nombre: ${machete[i].nombre} \n Teléfono: ${machete[i].telefono}  CP:  ${machete[i].cp}  Email:  ${machete[i].email} `
+            } else {
+                alert('Introduce un nombre valido');
+            }
+        }
+
+    }, false);
+
 }
 
-function generarContenido(array) {
-    try {
-        //document.body.removeChild(document.querySelector("section"));
-        ;
-    } catch (e) {
-    }
-    let section = document.createElement("section");
-    for (let i = 0; i < array.length; i++) {
-        let p = document.createElement("p");
-        p.innerText = array[i];
-        section.appendChild(p);
-    }
-    document.body.appendChild(section);
-}
+
 
 
 
