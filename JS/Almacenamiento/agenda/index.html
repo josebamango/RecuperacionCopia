@@ -7,10 +7,16 @@
     <script src="ClaseContacto.js"></script>
 </head>
 <body>
-<label for="nombre">Nombre: </label><input type="text" name="nombre" id="nombre"><br>
-<label for="telefono">Teléfono: </label><input type="tel" name="telefono" id="telefono"><br>
-<label for="cp">Código Postal: </label><input type="number" minlength="5" maxlength="5" name="cp" id="cp"><br>
-<label for="email">Email: </label><input type="email" name="email" id="email"><br>
+<div id="clockdate" style="border: solid 2px; width: 100px">
+    <div class="clockdate-wrapper">
+        <div id="clock"></div>
+        <div id="date"></div>
+    </div>
+</div>
+<label for="nombre">Nombre: </label><input type="text" name="nombre" id="nombre" required><br>
+<label for="telefono">Teléfono: </label><input type="number" name="telefono" id="telefono" required><br>
+<label for="cp">Código Postal: </label><input type="number" name="cp" id="cp" required><br>
+<label for="email">Email: </label><input type="email" name="email" id="email" required><br>
 
 <fieldset>
     <legend>Local Storage</legend>

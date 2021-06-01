@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d0f6dbb-ca63-4c85-b196-c1df87e6b959" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_05_2021_15_08__Default_Changelist_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Almacenamiento/notas/ClaseNota.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Almacenamiento/notas/Ej2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Almacenamiento/notas/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/XML/Ejer1/Listado.class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/XML/Ejer1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/XML/Ejer1/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/XML/copia/estilo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/XML/copia/operaciones.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/XML/copia/repasoXML.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/XML/copia/repasoXML.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/Almacenamiento/ejer1/ClaseContacto.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/Almacenamiento/agenda/ClaseContacto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/Almacenamiento/ejer1/Ej1.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/Almacenamiento/agenda/Ej1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/Almacenamiento/ejer1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/Almacenamiento/agenda/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZooZero/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ZooZero/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zoologico-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zoologico-master/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ZooZero" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JS/Almacenamiento/notas" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -45,11 +58,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\clonacion\RecuperacionCopia\JS\Almacenamiento\notas" />
       <recent name="C:\xampp\htdocs\clonacion\RecuperacionCopia\segundoZoo\database\factories" />
       <recent name="C:\xampp\htdocs\clonacion\RecuperacionCopia\JS\AJAX\ejer6" />
       <recent name="C:\xampp\htdocs\clonacion\RecuperacionCopia\JS\AJAX\ejer7" />
       <recent name="C:\xampp\htdocs\clonacion\RecuperacionCopia\segundoZoo\database\seeders" />
-      <recent name="C:\xampp\htdocs\clonacion\RecuperacionCopia\segundoZoo\app\Models" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -78,6 +91,7 @@
       <workItem from="1621948028225" duration="8049000" />
       <workItem from="1621957762047" duration="92000" />
       <workItem from="1621957908675" duration="320000" />
+      <workItem from="1622552749178" duration="6401000" />
     </task>
     <task id="LOCAL-00001" summary="Iniciamos laravel y shotcuts de js">
       <created>1621353138850</created>
